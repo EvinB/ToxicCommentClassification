@@ -11,6 +11,14 @@ Source: Jigsaw Toxic Comment Classification Challenge
 - 80% of data used for training
 - 20% of data used for validation
 
+## Libraries & Tools Used
+- NumPy – Efficient numerical computations and array operations
+- Pandas – Data loading and manipulation
+- Scikit-learn – Traditional ML models (Logistic Regression, SVM), evaluation metrics
+- Keras / TensorFlow – Implementation of LSTM + Feedforward networks
+- PyTorch – Training and fine-tuning of DistilBERT and other transformer models
+- Hugging Face Transformers – Pretrained DistilBERT and GPT2 models, tokenizers, and training utilities
+
 ## Models Implemented 
 - Logistic Regression: Baseline using TF-IDF features; fast but limited semantic understanding
 - Support Vector Machine: Better handling of class separation, but still shallow
